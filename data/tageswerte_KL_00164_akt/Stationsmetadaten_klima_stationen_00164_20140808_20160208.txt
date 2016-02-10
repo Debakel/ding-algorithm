@@ -1,0 +1,7 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+   164;   45; 53.0168; 14.0118;19080101;19460531;Angermünde                                                                                                                                             
+   164;   45; 53.0168; 14.0118;19460601;19471231;Angermünde                                                                                                                                             
+   164;   45; 53.0132; 14.0004;19480101;19481031;Angermünde                                                                                                                                             
+   164;   48; 53.0143; 13.9938;19481101;19500331;Angermünde                                                                                                                                             
+   164;   48; 53.0143; 13.9938;19500401;19790110;Angermünde                                                                                                                                             
+   164;   54; 53.0316; 13.9907;19790111;        ;Angermünde                                                                                                                                             
