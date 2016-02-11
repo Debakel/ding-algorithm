@@ -1,0 +1,5 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+    73;  351; 48.5671; 13.0923;19590301;19620524;Aldersbach-Kriestorf                                                                                                                                   
+    73;  335; 48.5690; 13.0770;19620525;19790831;Aldersbach-Kriestorf                                                                                                                                   
+    73;  325; 48.5909; 13.0870;19790901;20070331;Aldersbach-Kriestorf                                                                                                                                   
+    73;  340; 48.6159; 13.0506;20070401;        ;Aldersbach-Kriestorf                                                                                                                                   

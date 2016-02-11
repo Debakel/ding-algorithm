@@ -1,0 +1,1 @@
+Terminwerte_Klima der Parameter SHK_TAG der Station  00102 des Messnetzes 4 fuer den Zeitraum 20140809 20160209 fehlen.

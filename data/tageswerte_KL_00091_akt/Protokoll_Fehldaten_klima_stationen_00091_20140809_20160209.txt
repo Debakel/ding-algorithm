@@ -1,0 +1,2 @@
+Tageswerte_Extrema der Parameter FX der Station  00091 des Messnetzes 3 fuer den Zeitraum 20140809 20160209 fehlen.
+Tageswerte_Mittelwerte der Parameter FM der Station  00091 des Messnetzes 3 fuer den Zeitraum 20140809 20160209 fehlen.

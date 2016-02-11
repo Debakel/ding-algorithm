@@ -1,0 +1,2 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+    91;  300; 50.7446;  9.3450;19781101;        ;Alsfeld-Eifa                                                                                                                                           

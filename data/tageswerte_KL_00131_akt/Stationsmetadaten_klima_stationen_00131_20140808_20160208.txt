@@ -1,0 +1,4 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+   131;  290; 51.0955; 12.9184;19521101;20040907;Geringswalde-Altgeringswalde                                                                                                                           
+   131;  296; 51.0880; 12.9328;20040908;20080731;Geringswalde-Altgeringswalde                                                                                                                           
+   131;  296; 51.0880; 12.9328;20080801;        ;Geringswalde-Altgeringswalde                                                                                                                           

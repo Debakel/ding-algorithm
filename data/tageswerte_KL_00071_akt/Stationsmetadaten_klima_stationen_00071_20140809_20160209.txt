@@ -1,0 +1,4 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+    71;  703; 48.2158;  8.9637;19861101;19941031;Albstadt-Badkap                                                                                                                                        
+    71;  698; 48.2135;  8.9584;19941101;20091130;Albstadt-Badkap                                                                                                                                        
+    71;  759; 48.2155;  8.9784;20091201;        ;Albstadt-Badkap                                                                                                                                        

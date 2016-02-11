@@ -1,0 +1,4 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+   161;   70; 50.4330;  7.4034;19220301;19700930;Andernach                                                                                                                                              
+   161;   62; 50.4405;  7.4231;19701001;20071231;Andernach                                                                                                                                              
+   161;   75; 50.4238;  7.4203;20110712;        ;Andernach                                                                                                                                              

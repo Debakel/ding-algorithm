@@ -1,0 +1,5 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+    44;   48; 52.8846;  8.2308;19581201;19710228;Groﬂenkneten                                                                                                                                           
+    44;   48; 52.8846;  8.2308;19710301;19930630;Groﬂenkneten                                                                                                                                           
+    44;   42; 52.9166;  8.2208;19930701;20070331;Groﬂenkneten                                                                                                                                           
+    44;   44; 52.9335;  8.2370;20070401;        ;Groﬂenkneten                                                                                                                                           

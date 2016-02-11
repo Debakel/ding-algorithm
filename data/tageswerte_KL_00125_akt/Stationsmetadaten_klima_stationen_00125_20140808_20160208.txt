@@ -1,0 +1,4 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;                                                                                                             
+   125;  756; 47.8333; 10.8667;19610412;19740228;Altenstadt                                                                                                                                             
+   125;  756; 47.8333; 10.8667;19740301;20071202;Altenstadt                                                                                                                                             
+   125;  756; 47.8342; 10.8667;20071203;        ;Altenstadt                                                                                                                                             
