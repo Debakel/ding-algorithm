@@ -4,12 +4,16 @@ import csv
 
 from ding_algorithm import ding
 from dwd import parser
+from os import listdir
+import os
 # Daten
-dirname = '/home/m/Dropbox/Studium/06_WS1516/04_Geodatenverarbeitung mit Python/Hausaufgabe/data/tageswerte_KL_00164_akt/'
-filename_tageswerte = dirname + 'produkt_klima_Tageswerte_20140808_20160208_00164.txt'
-filename_metadaten = dirname + 'Stationsmetadaten_klima_stationen_00164_20140808_20160208.txt'
+dirname = '/home/m/Dropbox/Studium/06_WS1516/04_Geodatenverarbeitung mit Python/Hausaufgabe/data/'
+dataset = []
 
-dataset = parser.read_dataset(filename_metadaten, filename_tageswerte)
+for root, dirs, files in os.walk(dirname):
+    for name in dirs:
+        dataset.extend(parser.read_dataset(os.path.join(root, name)))
+
 
 row = 0
 for messung in dataset:

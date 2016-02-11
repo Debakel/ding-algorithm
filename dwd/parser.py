@@ -1,7 +1,7 @@
 # coding=utf8
 
 import csv
-
+import os
 # Spalten Metadaten
 STATIONSHOEHE = 1
 VON_DATUM = 4
@@ -24,12 +24,21 @@ def read_csv(filename):
             rows.append(row)
         return rows
 
-def read_dataset(filename_metadaten, filename_tageswerte):
+def read_dataset(dirname, filename_metadaten=None, filename_tageswerte=None):
     # Metadaten in Stationsmetadaten_klima_stationen_00164_20140808_20160208.txt
     # Tageswerte in produkt_klima_Tageswerte_20140808_20160208_00164.txt
-
-    metadaten = read_csv(filename_metadaten)
-    tageswerte = read_csv(filename_tageswerte)
+    if filename_metadaten is not None and filename_tageswerte is not None:
+        metadaten = read_csv(filename_metadaten)
+        tageswerte = read_csv(filename_tageswerte)
+    else:
+        files = os.listdir(dirname)
+        for file in files:
+            if file[0] is '.':
+                continue # skip lockfiles, cache, etc...
+            if 'Stationsmetadaten' in file:
+                metadaten = read_csv(os.path.join(dirname, file))
+            elif 'Tageswerte' in file:
+                tageswerte = read_csv(os.path.join(dirname, file))
 
     data_set = []
     for messung in tageswerte:
